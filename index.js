@@ -2,5 +2,4 @@
 
 const new_drivers_array = (function returnFirstTwoDrivers(drivers) {
   return drivers.splice(0, 2);
-}
 })();
