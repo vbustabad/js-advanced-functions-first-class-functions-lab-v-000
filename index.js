@@ -1,3 +1,3 @@
 // Code your solution in this file!
 
-(function returnFirstTwoDrivers(drivers) {})();
+const new_drivers_array = (function returnFirstTwoDrivers(drivers) {})();
