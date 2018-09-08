@@ -15,3 +15,12 @@ function createFareMultiplier(integer) {
 const fareDoubler = createFareMultiplier(2);
 
 const fareTripler = createFareMultiplier(3);
+
+function fetchSpecifiedDrivers(drivers, function) {
+  if function === returnFirstTwoDrivers {
+    return drivers.slice(0, 2);
+  }
+  else {
+    return drivers.slice(-2);
+  }
+};
