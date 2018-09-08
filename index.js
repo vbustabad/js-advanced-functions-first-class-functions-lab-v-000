@@ -8,6 +8,6 @@ selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 
 function createFareMultiplier(integer) {
   return function(fare) {
-    fare * integer;
+    return fare * integer;
   }
 };
